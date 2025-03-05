@@ -1,0 +1,12 @@
+<div>
+  <h1>Testing Angular Directive Lifecycle</h1>
+  
+  <div *ngIf="destroyDirective" appLifecycleDirective>
+    <p>This is a div with a custom directive.</p>
+  </div>
+  
+  <button (click)="toggleDirective()">Toggle Directive</button>
+</div>
+
+<!-- Include the LifecycleDemoComponent -->
+<app-lifecycle-demo></app-lifecycle-demo>

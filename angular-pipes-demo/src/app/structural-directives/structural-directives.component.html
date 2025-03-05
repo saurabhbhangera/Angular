@@ -1,0 +1,13 @@
+<p>structural-directives works!</p>
+<div>
+    <h2>Structural Directives Example</h2>
+  
+    <button (click)="toggleVisibility()">Toggle Visibility</button>
+    <p *ngIf="isVisible">This content is visible when 'isVisible' is true.</p>
+  
+    <h3>List of Items:</h3>
+    <ul>
+      <li *ngFor="let item of items">{{ item }}</li>
+    </ul>
+  </div>
+  
