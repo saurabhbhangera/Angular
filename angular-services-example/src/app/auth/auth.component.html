@@ -1,0 +1,8 @@
+<p>auth works!</p>
+<div>
+    <button (click)="login()" *ngIf="!isLoggedIn">Login</button>
+    <button (click)="logout()" *ngIf="isLoggedIn">Logout</button>
+  
+    <p *ngIf="isLoggedIn">User is logged in!</p>
+    <p *ngIf="!isLoggedIn">User is logged out!</p>
+  </div>

@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { ChildComponent } from '../child/child.component';  // ✅ Import the standalone ChildComponent
+import { ChildComponent } from '../child/child.component';  
 
 @Component({
   selector: 'app-parent',
-  standalone: true,  // ✅ Mark it as standalone
-  imports: [ChildComponent],  // ✅ Import ChildComponent
+  standalone: true,  
+  imports: [ChildComponent],  
   templateUrl: './parent.component.html',
   styleUrls: ['./parent.component.css']
 })
